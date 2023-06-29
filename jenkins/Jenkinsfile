@@ -26,5 +26,10 @@ pipeline {
                 echo 'Stage Completed Successfully'
             }
         }
+        stage('Completed2') {
+            steps {
+                echo 'Stage Completed2 Successfully'
+            }
+        }
     }
 }
